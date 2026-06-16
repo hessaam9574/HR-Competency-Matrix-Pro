@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# HR Competency Matrix Pro
 
-# Run and deploy your AI Studio app
+An AI-powered web application for building, scoring, and visualizing HR
+competency matrices. It uses the Google Gemini API to analyze employee
+competencies against role requirements and KPIs, with interactive
+dashboards and PDF reporting.
 
-This contains everything you need to run your app locally.
+## Features
+- Competency matrix builder with weighted KPI scoring
+- AI-assisted analysis & recommendations (Google Gemini)
+- KPI performance gauges and visual dashboards
+- One-click PDF export of the competency matrix
+- Responsive UI with dark mode
 
-View your app in AI Studio: https://ai.studio/apps/e27b5711-b4cc-4812-9533-239624986dc4
+## Tech Stack
+- React + TypeScript
+- Google Gemini API (Generative Language)
+- lucide-react (icons)
+- Prototyped in Google AI Studio
 
-## Run Locally
+## Getting Started
+```bash
+npm install
+npm run dev
+```
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Configuration
+This app needs a Gemini API key, provided as an environment variable:
